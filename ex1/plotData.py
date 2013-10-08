@@ -7,6 +7,8 @@
 import numpy as np
 import pylab as pl
 
+print "Plotting data..."
+
 data = np.genfromtxt('ex1data.csv', delimiter = ',')
 dataT = data.transpose()
 
